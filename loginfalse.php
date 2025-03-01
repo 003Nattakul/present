@@ -7,6 +7,36 @@ include("conn.php");
 
 
 <head>
+
+<style>
+    body {
+        background-color: #f0f4f8;
+        font-family: 'Kanit', sans-serif;
+    }
+    .container {
+        margin-top: 30px;
+    }
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        transition: background 0.3s ease;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+    table {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- เพิ่ม ส่วน Bootstrap -->
@@ -40,6 +70,11 @@ include("conn.php");
     <title>เข้าสู่ระบบผิดพลาด</title>
 </head>
 <body>
+
+        <div class="navbar">
+            ระบบจัดการข้อมูลครู
+        </div>
+        
     <br><br>
     <center>
         <h1>เข้าสู่ระบบผิดพลาด</h1>
